@@ -36,7 +36,6 @@ const {
   user-select: none;
   padding: var(--btn-py) var(--btn-px);
   font-size: var(--btn-fs);
-  background-color: var(--btn-bg);
   border-color: var(--btn-border, transparent);
   color: var(--btn-color, #fff);
 
@@ -61,26 +60,26 @@ const {
 
   /* variants */
   &.primary {
-    --btn-bg: #007bff;
-    --btn-hover: #0056b3;
-    --btn-active: #004085;
+    background-color: var(--ui-color-primary);
+    --btn-hover: var(--ui-matisse-600);
+    --btn-active: var(--ui-matisse-700);
   }
   &.secondary {
-    --btn-bg: #6c757d;
-    --btn-hover: #5a6268;
-    --btn-active: #545b62;
+    background-color: var(--ui-color-secondary);
+    --btn-hover: var(--ui-daintree-600);
+    --btn-active: var(--ui-daintree-700);
   }
   &.outline {
-    --btn-bg: transparent;
-    --btn-border: #007bff;
-    --btn-color: #007bff;
+    background-color: transparent;
+    border-color: var(--ui-color-outline);
+    color: var(--ui-color-outline);
     --btn-hover: #007bff;
     --btn-active: #0056b3;
   }
   &.danger {
-    --btn-bg: #dc3545;
-    --btn-hover: #c82333;
-    --btn-active: #bd2130;
+    background-color: var(--ui-color-danger);
+    --btn-hover: var(--ui-mint-tulip-400);
+    --btn-active: var(--ui-mint-tulip-600);
   }
 
   /* sizes */

@@ -1,0 +1,67 @@
+:root {
+  /* fonts*/
+  --ui-base-font-size: 16px;
+
+  /* colors */
+  --ui-color-white: #fff;
+  --ui-color-black: #000;
+
+  /* matisse palette */
+  --ui-matisse-50: #f9fcff;
+  --ui-matisse-100: #e3eff6;
+  --ui-matisse-200: #c5e0f0;
+  --ui-matisse-300: #9ac7e3;
+  --ui-matisse-400: #64a5cc;
+  --ui-matisse-500: #1c749f;
+  --ui-matisse-600: #156a93;
+  --ui-matisse-700: #165f82;
+  --ui-matisse-800: #26556f;
+  --ui-matisse-900: #2a4759;
+  --ui-matisse-950: #1f2e37;
+
+  /* daintree palette */
+  --ui-daintree-50: #fafcfd;
+  --ui-daintree-100: #e9edf0;
+  --ui-daintree-200: #d3dde3;
+  --ui-daintree-300: #b2c3ce;
+  --ui-daintree-400: #8aa2b1;
+  --ui-daintree-500: #011926;
+  --ui-daintree-600: #08202d;
+  --ui-daintree-700: #0b202b;
+  --ui-daintree-800: #102028;
+  --ui-daintree-900: #151f25;
+  --ui-daintree-950: #191e22;
+
+  /* mint-tulip palette */
+  --ui-mint-tulip-50: #fbfcfd;
+  --ui-mint-tulip-100: #f9fcff;
+  --ui-mint-tulip-200: #f9fcff;
+  --ui-mint-tulip-300: #ecf7ff;
+  --ui-mint-tulip-400: #ddf0fd;
+  --ui-mint-tulip-500: #d2e8f7;
+  --ui-mint-tulip-600: #889ba9;
+  --ui-mint-tulip-700: #6c7d89;
+  --ui-mint-tulip-800: #525e66;
+  --ui-mint-tulip-900: #3f474c;
+  --ui-mint-tulip-950: #25292c;
+
+  /* river-bed palette */
+  --ui-river-bed-50: #fbfcfd;
+  --ui-river-bed-100: #eaedef;
+  --ui-river-bed-200: #d5dce1;
+  --ui-river-bed-300: #b6c2cb;
+  --ui-river-bed-400: #90a1ac;
+  --ui-river-bed-500: #465864;
+  --ui-river-bed-600: #3d4e59;
+  --ui-river-bed-700: #314049;
+  --ui-river-bed-800: #273139;
+  --ui-river-bed-900: #181e23;
+  --ui-river-bed-950: #1a1e21;
+
+  /* button colors */
+  --ui-color-primary: var(--ui-matisse-500);
+  --ui-color-secondary: var(--ui-daintree-500);
+  --ui-color-danger: var(--ui-river-bed-500);
+  --ui-color-outline: var(--ui-matisse-500);
+  --ui-color-on-primary: var(--ui-color-white);
+}
