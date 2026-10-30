@@ -1,0 +1,13 @@
+:root {
+  --ui-color-white: #fff;
+  --ui-color-black: #000;
+  --ui-color-blue: #007bff;
+  --ui-color-gray: #6c757d;
+  --ui-color-red: #dc3545;
+
+  /* button colors */
+  --ui-primary-color: var(--ui-color-blue);
+  --ui-secondary-color: var(--ui-color-gray);
+  --ui-danger-color: var(--ui-color-red);
+  --ui-color-on-primary: var(--ui-color-white);
+}
